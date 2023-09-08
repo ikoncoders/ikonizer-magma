@@ -1,0 +1,14 @@
+/vendor/
+/app/views/cache/
+/.env
+/composer.lock
+/app/views/.cache/
+/node_modules/
+/.cache/ 
+/.idea/
+/todo.txt
+/messages.sql
+/structure.json
+/checklist.txt
+/employees.txt
+/idea.txt

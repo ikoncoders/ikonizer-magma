@@ -1,0 +1,44 @@
+{
+    "name": "ikoncoders/ikonizer-magma",
+    "description": "Barebone starter project for Ikonizer framework",
+    "keywords": [
+        "ikonizer-base","ikonizercore","php","framework","project"
+    ],
+     "type": "project",
+    "time": "2023-09-08",
+    "readme": "https://github.com/ikoncoders/ikonizer-magma/blob/master/README.md",
+    "support": {
+        "email": "ikoncoders@gmail.com",
+        "source": "https://github.com/ikoncoders/ikonizer-magma.git",
+        "wiki": "https://github.com/ikoncoders/ikonizer-magma/wiki",
+        "issues": "https://github.com/ikoncoders/ikonizer-magma/issues"
+    },
+    "homepage": "https://thecodingworkshop.github.io/MagmaCore__/",
+    "license": "MIT",
+    "authors": [{
+        "name": "ikoncoders",
+        "email": "ikoncoders@gmail.com"
+    }],
+    "minimum-stability": "beta",
+    "require": {
+        "ext-mbstring": "*",
+        "ext-iconv": "*",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ikonizer\\Tests\\": "tests/"
+        }
+    },
+    "suggest": {
+        "ikoncoders/ikonizer-magma-framework": "added for a complete management system."
+    }
+}
